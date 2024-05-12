@@ -9,7 +9,7 @@ from django.contrib.auth.forms import UserCreationForm
 from .models import Room, Topic
 from .forms import RoomForm
 # Create your views here.
-
+#keep doing
 #rooms=[
 #   {'id':1,'name':'Lets learn python!'},
 #   {'id':2,'name':'you never know!'},
@@ -75,7 +75,8 @@ def home(request):
 
 def room(request, pk):
     room= Room.objects.get(id=pk)
-    context={'room': room}
+    room_messages = room.message_set.all().order_by('-created')
+    context={'room': room,'room_messages': room_messages}
     return render(request, 'base/room.html',context)
 
 
