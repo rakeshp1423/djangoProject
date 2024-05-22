@@ -1,0 +1,13 @@
+<div class="section browse-topics">
+    <h2>Browse Topics</h2>
+    <hr>
+    <div>
+        <a href="{% url 'home' %}" class="topic-link">All</a>
+    </div>
+    {% for topic in topics %}
+        <div>
+            <a href="www.google.com" class="topic-link">Google</a>
+            <a href="{% url 'home' %}?q={{ topic.name }}" class="topic-link">{{ topic.name }}</a>
+        </div>
+    {% endfor %}
+</div>
