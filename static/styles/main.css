@@ -1,15 +1,15 @@
 /* General Styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #F2F2F2;
-    color: #004A7C;
+    background-color: #eeeeee; /* Updated */
+    color: #303841; /* Updated */
     margin: 0;
     padding: 0;
     line-height: 1.6;
 }
 
 a {
-    color: #005691;
+    color: #00adb5; /* Updated */
     text-decoration: none;
 }
 
@@ -25,10 +25,10 @@ a:hover {
 
 /* Header */
 header {
-    background-color: #005691;
+    background-color: #00adb5; /* Updated */
     padding: 10px 0;
     text-align: center;
-    color: #FFFFFF;
+    color: #eeeeee; /* Updated */
 }
 
 header h1 {
@@ -38,7 +38,7 @@ header h1 {
 
 /* Navbar */
 nav {
-    background-color: #004A7C;
+    background-color: #303841; /* Updated */
     overflow: hidden;
     display: flex;
     justify-content: space-between;
@@ -49,7 +49,7 @@ nav {
 .logo h1 {
     margin: 0;
     font-size: 1.5rem;
-    color: #FFFFFF;
+    color: #eeeeee; /* Updated */
 }
 
 .search-form {
@@ -66,7 +66,7 @@ nav {
 }
 
 .search-input:focus {
-    border-color: #005691;
+    border-color: #00adb5; /* Updated */
 }
 
 .auth-links {
@@ -76,14 +76,14 @@ nav {
 
 .auth-links p {
     margin: 0 10px;
-    color: #FFFFFF;
+    color: #eeeeee; /* Updated */
 }
 
 .auth-links .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #005691;
-    color: #FFFFFF;
+    background-color: #00adb5; /* Updated */
+    color: #eeeeee; /* Updated */
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -93,12 +93,12 @@ nav {
 }
 
 .auth-links .button:hover {
-    background-color: #004A7C;
+    background-color: #303841; /* Updated */
 }
 
 /* Main Content */
 main {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -112,7 +112,7 @@ main {
 
 .room-card {
     padding: 20px;
-    background-color: #F2F2F2;
+    background-color: #eeeeee; /* Updated */
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
@@ -127,11 +127,11 @@ main {
 }
 
 .room-name {
-    color: #005691;
+    color: #00adb5; /* Updated */
 }
 
 .username {
-    color: #005691;
+    color: #00adb5; /* Updated */
 }
 
 .divider {
@@ -149,7 +149,7 @@ main {
 
 .profile-section {
     padding: 20px;
-    background-color: #F2F2F2;
+    background-color: #eeeeee; /* Updated */
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
@@ -161,7 +161,7 @@ main {
 
 .activity-message {
     padding: 10px;
-    background-color: #F2F2F2;
+    background-color: #eeeeee; /* Updated */
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
@@ -171,7 +171,7 @@ main {
 .delete-form {
     margin-top: 20px;
     padding: 20px;
-    background-color: #F2F2F2;
+    background-color: #eeeeee; /* Updated */
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
@@ -179,14 +179,14 @@ main {
 /* Participants Box */
 .participants-box {
     padding: 20px;
-    background-color: #F2F2F2;
+    background-color: #eeeeee; /* Updated */
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Button Hover Effect */
 .button:hover {
-    background-color: #004A7C;
+    background-color: #303841; /* Updated */
 }
 
 /* Responsive Design */
