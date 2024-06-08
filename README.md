@@ -16,7 +16,7 @@ This Django web application serves as a foundation for building dynamic websites
 1. Clone the repository:
 
    ```bash
-   https://github.com/rakeshp1423/djangoProject
+   git clone https://github.com/rakeshp1423/djangoProject
 
 2. Install dependencies: 
   
