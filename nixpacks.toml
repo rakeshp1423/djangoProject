@@ -10,8 +10,9 @@ pkgs = [
     "python3-dev"  # Required for Python headers
 ]
 
-[phases.start]
-cmd = "gunicorn your_project_name.wsgi --bind 0.0.0.0:$PORT"
+[phases.build]
+commands = [
+    "python manage.py collectstatic --noinput"
 
 [phases.start]
 cmd = "gunicorn djangoProject.wsgi --bind 0.0.0.0:$PORT"
