@@ -1,10 +1,11 @@
 [phases.setup]
 pkgs = [
-    "zlib-dev",
-    "jpeg-dev",
+    # Debian package names (not Alpine):
+    "zlib1g-dev",
+    "libjpeg-dev",
     "libwebp-dev",
-    "lcms2-dev",
-    "openjpeg-dev",
-    "tiff-dev",
-    "freetype-dev"
+    "libopenjp2-7-dev",
+    "libtiff5-dev",
+    "libfreetype6-dev",
+    "python3-dev"  # Required for Python headers
 ]
