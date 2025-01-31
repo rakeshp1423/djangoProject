@@ -87,3 +87,21 @@ I believe in the power of collaboration and welcome any contributions or feedbac
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rakesh-kumar-patra-8864b1258/)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://x.com/KumarRakesh1423)
 
+
+
+<table>
+  <tr>
+    <td><img src="static/images/screenshots/home.png" width="200"></td>
+    <td><img src="static/images/screenshots/room.png" width="200"></td>
+    <td><img src="static/images/screenshots/profile.png" width="200"></td>
+    <td><img src="static/images/screenshots/login.png" width="200"></td>
+  </tr>
+  <tr>
+    <td><img src="static/images/screenshots/chat.png" width="200"></td>
+    <td><img src="static/images/screenshots/search.png" width="200"></td>
+    <td><img src="static/images/screenshots/edit.png" width="200"></td>
+    <td><img src="static/images/screenshots/create.png" width="200"></td>
+  </tr>
+</table>
+
+
