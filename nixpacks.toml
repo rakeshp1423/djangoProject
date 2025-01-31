@@ -1,0 +1,10 @@
+[phases.setup]
+pkgs = [
+    "zlib-dev",
+    "jpeg-dev",
+    "libwebp-dev",
+    "lcms2-dev",
+    "openjpeg-dev",
+    "tiff-dev",
+    "freetype-dev"
+]
