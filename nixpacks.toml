@@ -12,7 +12,7 @@ pkgs = [
 
 [phases.build]
 commands = [
-    "python manage.py collectstatic --noinput"
+    "python manage.py collectstatic --noinput"]
 
 [phases.start]
 cmd = "gunicorn djangoProject.wsgi --bind 0.0.0.0:$PORT"
